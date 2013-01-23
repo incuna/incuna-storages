@@ -8,7 +8,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     version=incuna_storages.__version__,
-    description='',
+    description='A collection of django storage backends.',
     long_description=open('README.rst').read(),
     author=incuna_storages.__author__,
     author_email='admin@incuna.com',
