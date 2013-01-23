@@ -13,7 +13,6 @@ setup(
     author=incuna_storages.__author__,
     author_email='admin@incuna.com',
     url='https://github.com/incuna/incuna-storages/',
-    install_requires=[],
     zip_safe=False,
 )
 
