@@ -8,6 +8,6 @@ class QueuedS3BotoMediaStorage(QueuedS3BotoStorage):
     media storage backend to set the location to "media".
     """
 
-    def __init__(self, remote='incuna.storage_backends.S3BotoMediaStorage', *args, **kwargs):
+    def __init__(self, remote='incuna_storages.backends.S3MediaStorage', *args, **kwargs):
         super(QueuedS3BotoMediaStorage, self).__init__(remote=remote, *args, **kwargs)
 
